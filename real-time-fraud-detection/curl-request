@@ -1,0 +1,3 @@
+curl -X POST http://localhost:8000/predict \
+-H "Content-Type: application/json" \
+-d '{"amount":900,"transaction_time":10,"user_age":35,"is_international":1}'
