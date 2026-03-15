@@ -1,0 +1,6 @@
+project: fraud_detection # name of the feast project
+registry: data/registry.db # it maps the features to the registry
+provider: local # provider is local, we can also use snowflake, bigquery, etc.
+online_store: # it is used for real-time feature retrieval
+    type: redis # type of the online store
+    connection_string: ${REDIS_HOST}:6379

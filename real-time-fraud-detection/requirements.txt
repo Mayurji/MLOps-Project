@@ -5,3 +5,9 @@ scikit-learn
 pandas
 numpy
 joblib
+mlflow
+psutil
+feast==0.49.0
+redis
+httpx
+requests
